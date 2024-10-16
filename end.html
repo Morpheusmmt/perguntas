@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parabens</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="container">
+    <div id="end" class="flex-center flex-column">
+      <h1 id="finalScore"></h1>
+      <form>
+        <input type="text"
+          name="username"
+          id="username"
+          placeholder="username" />
+        <buttom type="submite" class="btn" id="saveScore()" onclick="saveHighScore(event)"
+          disabled>Salvar</buttom>
+      </form>
+      <a class="btn" href="./game.html">Jogue novamente</a>
+      <a class="btn" href="/">Volte ao inicio</a>
+    </div>
+  </div>
+  <script src="end.js"></script>
+</body>
+</html>
